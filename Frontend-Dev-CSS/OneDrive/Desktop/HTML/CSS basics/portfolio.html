@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<style>
+:root{--bg:#0f1724;--card:#0b2236;--accent:#ffb703;--text:#e6eef6}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:flex;flex-direction:column;min-height:100vh;font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#111}
+.header{position:fixed;top:0;left:0;right:0;background:var(--bg);color:var(--text);display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;z-index:10}
+.header nav a{color:var(--text);margin-left:1rem;text-decoration:none;font-weight:600}
+.main{flex:1;padding-top:5.5rem;display:flex;align-items:center;justify-content:center}
+.card{background:linear-gradient(180deg,white,#f7fbff);padding:2rem;border-radius:12px;display:flex;gap:2rem;max-width:900px;width:90%;align-items:center;box-shadow:0 8px 24px rgba(2,6,23,0.15)}
+.profile{width:160px;height:160px;border-radius:50%;background-image:url('https://via.placeholder.com/300');background-size:cover;background-position:center;border:6px solid var(--accent)}
+.bio{font-size:1rem;line-height:1.6;color:#223}
+.bio h2{font-size:1.6rem;margin:0 0 .5rem}
+footer{background:#0b1220;color:var(--text);padding:1rem;display:flex;justify-content:center;align-items:center}
+.footer-inner{width:90%;max-width:1200px;display:flex;justify-content:space-between}
+.small{font-size:0.9rem}
+.profile{width:10rem;height:10rem}
+@media(max-width:600px){.card{flex-direction:column;text-align:center}.bio h2{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="logo"><strong style="color:var(--accent);font-size:1.25rem">Suraj Nagaich</strong></div>
+<nav><a href="#">Home</a><a href="#">About</a><a href="#">Contact</a></nav>
+</header>
+<main class="main">
+<section class="card" style="padding:2rem 1.5rem">
+<div class="profile"></div>
+<div class="bio">
+<h2>Frontend Developer</h2>
+<p style="font-size:1rem">I build accessible and responsive websites using modern HTML and CSS. I enjoy crafting clean user interfaces and learning new web technologies. Experience with Java, Python, and small full-stack apps.</p>
+<p style="margin-top:1rem;font-size:0.9rem;color:#556">Contact: suraj@example.com</p>
+</div>
+</section>
+</main>
+<footer>
+<div class="footer-inner"><div class="small">© 2025 Suraj Nagaich</div><div class="small">Location: India</div></div>
+</footer>
+</body>
+</html>

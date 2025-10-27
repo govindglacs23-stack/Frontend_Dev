@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>City Info</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Arial;background:#f2f6fb;color:#112}
+header,nav,main,footer{padding:2rem}
+header{background:linear-gradient(90deg,#0b3d91,#06a77d);color:#fff}
+nav{display:flex;gap:1rem;background:#fff;border-top:4px solid #eee}
+section{padding:4rem 2rem;border-bottom:1px solid #e8eef6;min-height:60vh;background-attachment:fixed}
+.section-a{background:linear-gradient(180deg,rgba(11,61,145,0.85),rgba(6,167,125,0.85)),url('https://via.placeholder.com/1200x600');background-size:cover;color:#fff}
+.section-b{background:radial-gradient(circle at 20% 20%,#fff7cc,#ffd4a3)}
+.section-c{background-image:url('https://via.placeholder.com/1200x800');background-size:cover;color:#fff;background-attachment:fixed}
+h1{margin:0;font-size:2rem}
+h2{font-size:1.6rem;font-weight:700;margin:0 0 1rem}
+p{max-width:900px;line-height:1.6;margin:1rem 0}
+footer{background:#0b1220;color:#fff;text-align:center}
+@media(max-width:800px){nav{flex-direction:column}section{padding:2rem}}
+</style>
+</head>
+<body>
+<header><h1>My Favorite City</h1></header>
+<nav><a href="#about">About</a><a href="#culture">Culture</a><a href="#visit">Visit</a></nav>
+<main>
+<section id="about" class="section-a">
+<h2>About the City</h2>
+<p>Vibrant streets, riverside parks, and a rich cultural history define this city. The waterfront promenades are ideal for walks and local vendors offer seasonal foods.</p>
+</section>
+<section id="culture" class="section-b">
+<h2>Culture & Events</h2>
+<p>Annual festivals celebrate music, food, and crafts. Museums and galleries host rotating exhibitions. Theaters offer local and international plays.</p>
+</section>
+<section id="visit" class="section-c">
+<h2>Places to Visit</h2>
+<p>Parks, historic quarters, and markets provide a full experience. Long promenades with scenic views are perfect for photography and leisure.</p>
+</section>
+</main>
+<footer>© 2025 City Info</footer>
+</body>
+</html>
