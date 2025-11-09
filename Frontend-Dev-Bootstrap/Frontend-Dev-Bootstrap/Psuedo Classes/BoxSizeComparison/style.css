@@ -1,0 +1,21 @@
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+.default-box, .border-box {
+  width: 200px;
+  padding: 30px;
+  border: 5px solid black;
+  background: lightcoral;
+}
+.border-box {
+  background: lightgreen;
+  box-sizing: border-box;
+}

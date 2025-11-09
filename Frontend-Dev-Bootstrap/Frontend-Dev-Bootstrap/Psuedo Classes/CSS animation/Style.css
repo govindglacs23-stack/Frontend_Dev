@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+.animation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.box {
+  width: 80px;
+  height: 80px;
+  background: blue;
+  animation: move 3s ease-in-out infinite alternate;
+}
+@keyframes move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(150px); }
+}
+.ball {
+  width: 60px;
+  height: 60px;
+  background: red;
+  border-radius: 50%;
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100px); }
+}
+.color-text {
+  animation: colorchange 3s infinite alternate;
+}
+@keyframes colorchange {
+  0% { color: purple; }
+  100% { color: orange; }
+}

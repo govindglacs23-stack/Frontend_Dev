@@ -1,0 +1,6 @@
+p { color: blue; }
+.highlight { color: red; }
+#intro { font-weight: bold; }
+a[href] { text-decoration: underline; }
+ul > li { list-style: square; }
+footer { text-align: center; margin-top: 20px; }
