@@ -1,0 +1,29 @@
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  font-family: Arial;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+input, button, select {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+button:hover {
+  background: lightblue;
+}
+input:focus, select:focus {
+  border-color: blue;
+  outline: none;
+}

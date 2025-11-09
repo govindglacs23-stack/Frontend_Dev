@@ -1,0 +1,6 @@
+body, html { height: 100%; margin: 0; }
+.wrapper { display: flex; align-items: center; justify-content: center; gap: 20px; height: 100vh; background: #fafafa; }
+.box { display: flex; align-items: center; justify-content: center; color: #fff; }
+.box1 { width: 200px; height: 150px; background: #f44336; }
+.box2 { width: 50%; min-height: 100px; max-width: 400px; background: #3f51b5; }
+.box3 { width: 20em; height: 30vh; overflow: scroll; background: #009688; }

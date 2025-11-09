@@ -1,0 +1,7 @@
+body { font-family: Georgia, serif; line-height: 1.6; margin: 40px; color: #333; }
+h1 { text-align: center; letter-spacing: 1px; }
+mark { background: yellow; color: black; }
+strong { color: darkred; }
+em { color: teal; }
+p::first-letter { font-size: 2em; font-weight: bold; }
+p::first-line { color: darkblue; }
