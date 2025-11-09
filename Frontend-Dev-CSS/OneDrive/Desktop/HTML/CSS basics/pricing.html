@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pricing Plans</title>
+<style>
+body{font-family:Arial;background:#f4f6f9;margin:2rem}
+.container{display:flex;gap:1rem;align-items:stretch}
+.plan{flex:1;background:#fff;padding:1.5rem;border-radius:10px;border:2px solid #e6eef8;transition:transform .25s ease,background .25s ease;display:flex;flex-direction:column;justify-content:space-between}
+.plan:hover{transform:scale(1.03);background:#f0f8ff}
+.popular{border-color:#ff8c00;background:#fffaf0}
+.plan h3{margin:0 0 .5rem}
+.features{list-style:none;padding:0;margin:0 0 1rem}
+.price{font-size:1.75rem;font-weight:700;margin:1rem 0}
+.btn{display:inline-block;padding:.6rem 1rem;background:#0b69ff;color:#fff;border-radius:6px;text-decoration:none}
+@media(max-width:800px){.container{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="plan">
+<div>
+<h3>Basic</h3>
+<ul class="features"><li>Feature A</li><li>Feature B</li></ul>
+<div class="price">$9/mo</div>
+</div>
+<a class="btn" href="#">Choose</a>
+</div>
+<div class="plan popular">
+<div>
+<h3>Standard</h3>
+<ul class="features"><li>Feature A</li><li>Feature B</li><li>Feature C</li></ul>
+<div class="price">$19/mo</div>
+</div>
+<a class="btn" href="#">Choose</a>
+</div>
+<div class="plan">
+<div>
+<h3>Premium</h3>
+<ul class="features"><li>All features</li><li>Priority Support</li></ul>
+<div class="price">$39/mo</div>
+</div>
+<a class="btn" href="#">Choose</a>
+</div>
+</div>
+</body>
+</html>

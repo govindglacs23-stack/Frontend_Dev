@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Photo Gallery</title>
+<style>
+body{font-family:Arial;background:#fafafa;margin:2rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem}
+.item{position:relative;overflow:hidden;border-radius:12px;box-shadow:0 8px 20px rgba(12,20,40,.08)}
+.item img{display:block;width:100%;height:200px;object-fit:cover;transition:transform .35s ease}
+.caption{position:absolute;left:0;right:0;bottom:0;padding:.6rem;background:linear-gradient(180deg,transparent,rgba(0,0,0,.6));color:#fff;opacity:0;transition:opacity .25s}
+.item:hover img{transform:scale(1.1)}
+.item:hover .caption{opacity:1}
+</style>
+</head>
+<body>
+<div class="grid">
+<div class="item"><img src="https://via.placeholder.com/400x300"><div class="caption">Caption 1</div></div>
+<div class="item"><img src="https://via.placeholder.com/400x300"><div class="caption">Caption 2</div></div>
+<div class="item"><img src="https://via.placeholder.com/400x300"><div class="caption">Caption 3</div></div>
+<div class="item"><img src="https://via.placeholder.com/400x300"><div class="caption">Caption 4</div></div>
+<div class="item"><img src="https://via.placeholder.com/400x300"><div class="caption">Caption 5</div></div>
+<div class="item"><img src="https://via.placeholder.com/400x300"><div class="caption">Caption 6</div></div>
+</div>
+</body>
+</html>

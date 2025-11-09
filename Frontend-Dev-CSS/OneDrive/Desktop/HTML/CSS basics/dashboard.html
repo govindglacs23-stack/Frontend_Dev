@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dashboard</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;display:flex;flex-direction:column;height:100vh}
+.header{position:fixed;top:0;left:0;right:0;height:60px;background:#0b3d91;color:#fff;display:flex;align-items:center;padding:0 1rem;z-index:5}
+.wrapper{display:flex;flex:1;padding-top:60px;min-height:0}
+.sidebar{width:240px;background:#071a3a;color:#fff;padding:1rem;height:calc(100vh - 60px);overflow:auto}
+.main{flex:1;padding:1rem;display:flex;flex-direction:column;gap:1rem;overflow:auto}
+.boxes{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.box{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 8px 24px rgba(12,20,40,.06)}
+@media(max-width:800px){.wrapper{flex-direction:column}.sidebar{width:100%;height:auto}}
+</style>
+</head>
+<body>
+<header class="header"><div>Dashboard</div></header>
+<div class="wrapper">
+<aside class="sidebar"><nav><a href="#" style="color:#fff;display:block;margin:.5rem 0">Overview</a><a href="#" style="color:#fff;display:block;margin:.5rem 0">Reports</a></nav></aside>
+<main class="main">
+<div class="boxes">
+<div class="box">Content Box 1</div>
+<div class="box">Content Box 2</div>
+</div>
+<div class="box">Additional content area</div>
+</main>
+</div>
+</body>
+</html>
