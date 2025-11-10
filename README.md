@@ -1,10 +1,14 @@
-# Frontend_Dev
-Mr. Sahil Kumar & Mr. Deepak Prasad guided this comprehensive Frontend Development training, emphasizing both conceptual clarity and practical implementation.
+🖥️ Frontend_Dev
 
-Welcome to the Frontend Development repository! This repository showcases the complete learning journey of web development fundamentals — from HTML, CSS, Responsive Design, and Bootstrap and so on..— with daily practice tasks and projects.
+Guided by: Mr. Sahil Kumar & Mr. Deepak Prasad
+This comprehensive Frontend Development training emphasized both conceptual clarity and hands-on implementation.
+
+🌐 Welcome to the Frontend Development Repository!
+
+This repository documents the complete learning journey of web development fundamentals — covering HTML, CSS, Responsive Design, Bootstrap, and more.
+It includes daily practice tasks and mini-projects to strengthen both theory and practical understanding.
 
 📅 Learning Progress Timeline
-
 🗓️ 9th October – Introduction to Web Development
 
 Topics Covered:
@@ -15,11 +19,10 @@ Basics of HTML Elements – Headings, Paragraphs, Tables, Images
 
 Concepts of localhost, ports, and IP rendering
 
-Setting up VS Code and using Live Server for previewing web pages
+Setting up VS Code and using Live Server to preview web pages
 
-🧠 Task: Create a timetable using the
+🧠 Task: Create a timetable using the <table> tag and run it on Live Server to view it in the browser.
 
-tag and run it on Live Server to view in browser.
 🗓️ 10th October – HTML Elements & Forms
 
 Topics Covered:
@@ -28,7 +31,7 @@ Block & Inline Elements, Attributes, and Layout
 
 Working with Tables, Dropdowns, Lists, and Blocks
 
-Introduction to tag
+Introduction to the <form> tag
 
 Creating HTML Forms with various input types
 
@@ -44,7 +47,7 @@ Understanding inline, block, and inline-block elements
 
 Basic layout and positioning techniques
 
-🧠 Task: Design a simple webpage using internal & external CSS applying colors, margins, padding, and positioning.
+🧠 Task: Design a simple webpage using internal & external CSS, applying colors, margins, padding, and positioning.
 
 🗓️ 30th October – Flexbox, Grid & Box Model
 
@@ -52,7 +55,7 @@ Topics Covered:
 
 Revision of Flexbox and CSS Grid
 
-Detailed understanding of Box Model (Borders, Padding, Height/Width)
+Detailed understanding of the Box Model (Borders, Padding, Height/Width)
 
 Using Gradients, Shadows, Selectors, and Transformations
 
@@ -74,17 +77,17 @@ Topics Covered:
 
 Responsive Web Design Principles
 
-CSS Filters, Media Queries, and making pages adapt to screen sizes
+CSS Filters, Media Queries, and making pages adapt to different screen sizes
 
-🧠 Task: Design a responsive card UI with title, image, and hover transition effect.
+🧠 Task: Design a responsive card UI with a title, image, and hover transition effect.
 
 🗓️ 5th November – Introduction to Bootstrap
 
 Topics Covered:
 
-Bootstrap Basics & Grids
+Bootstrap Basics & Grid System
 
-Using prebuilt components and responsive utilities for modern layouts
+Using pre-built components and responsive utilities for modern layouts
 
 🧠 Task: Create a responsive portfolio webpage using Bootstrap.
 
@@ -92,9 +95,9 @@ Using prebuilt components and responsive utilities for modern layouts
 
 Topics Covered:
 
-Exploring Bootstrap Components like Carousel, Progress Bar, and more
+Exploring Bootstrap Components such as Carousel, Progress Bar, and more
 
-Enhancing UI design and responsive layout understanding
+Enhancing UI design and deepening understanding of responsive layouts
 
 🧠 Task: Design a responsive portfolio webpage using Bootstrap components.
 
