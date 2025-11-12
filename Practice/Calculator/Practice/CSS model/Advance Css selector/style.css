@@ -1,0 +1,9 @@
+input[type="text"] { border: 2px solid teal; }
+a[href^="https"] { color: green; }
+li:nth-child(odd) { background: #eee; }
+a:hover { color: red; }
+input:focus { outline: 2px solid blue; }
+h2::before { content: "★ "; color: gold; }
+p::after { content: " ✓"; color: gray; }
+ul > li { padding: 5px; }
+h2 + p { font-style: italic; }

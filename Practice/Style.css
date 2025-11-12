@@ -1,0 +1,59 @@
+/* *{
+     display: flex;
+} */
+.main{
+    display: flex;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+display: grid;
+grid-template-columns: 100px 100px 100px;
+grid-template-rows: 150px 150px;
+gap: 10px;
+}
+.child1{
+    border: 2px groove red;
+    width:20px;
+    height: 20px;
+}
+.child2{
+    border: 2px groove green;
+    width:20px;
+    height: 20px;
+}
+.child3{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}
+.child4{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}
+.child5{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}
+.child6{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}
+.child7{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}
+.child8{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}
+.child9{
+    border: 2px groove blue;
+    width:20px;
+    height: 20px;
+}

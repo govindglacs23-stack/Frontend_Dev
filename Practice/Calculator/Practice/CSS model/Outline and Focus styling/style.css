@@ -1,0 +1,5 @@
+body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #fafafa; font-family: sans-serif; }
+form { display: flex; flex-direction: column; gap: 10px; width: 300px; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 6px; outline: 2px solid transparent; transition: outline-color 0.3s; }
+input:focus, textarea:focus { outline-color: dodgerblue; outline-offset: 3px; }
+button { padding: 10px; background: #2196f3; color: white; border: none; border-radius: 6px; }
