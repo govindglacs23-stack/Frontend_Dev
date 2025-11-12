@@ -116,3 +116,43 @@ CSS Animations & Transitions
 Bootstrap Framework
 
 VS Code + Live Server
+
+📘 JavaScript – Introduction & Fundamentals
+
+🗓 Date: 10th November
+
+🧠 Topics Covered
+
+In today’s session, we began our Introduction to JavaScript, focusing on how the language operates, performs calculations, and controls program flow.
+
+Key Concepts Covered:
+
+JavaScript Basics
+
+What JavaScript is and how it interacts with HTML and the browser.
+
+Data Types
+
+Understanding primitive types like string, number, boolean, undefined, and null.
+
+Operators
+
+Arithmetic (+, -, *, /, %)
+
+Assignment (=, +=, -=)
+
+Comparison (==, ===, !=, >, <, >=, <=)
+
+Logical (&&, ||, !)
+
+Control Structures
+
+if, else if, else
+
+switch
+
+Loops (for, while, do...while)
+
+Math in JavaScript
+
+Using the built-in Math object for calculations.
